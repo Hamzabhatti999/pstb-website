@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
 @import url('https://fonts.googleapis.com/css?family=sans-serif');
-header{
+.top-section{
     background-image: url('../assets/banner.jpg');
     background-attachment:scroll;
     background-repeat: no-repeat;
@@ -10,14 +10,25 @@ header{
     color: #17bb95;
     height: 100%;
     width: 100%;
-    padding-top:20%;
-    padding-bottom:20%;
+    padding-top: 360px;
+    padding-bottom: 200px;
+   
 }
-header .main-text{
+.top-section .main-text{
     font-family: Montserrat;
     font-weight: 800;
     font-size: 50px;
     line-height: 70px;
     margin-top: 10px;
     padding-top: auto;
+}
+.infobtn{
+    background-color: #029349;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.infobtn:hover{
+    background-color: #029349;
+    border: 1px solid  #029349;;
 }

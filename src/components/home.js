@@ -10,9 +10,9 @@ export default function Home() {
             {/* Home Page Layout */}
            
                 <Navigation />
-                {/* <img src={background} class="img-fluid" alt="..." /> */}
+                
                 <Info />
-            {/* <Certificate /> */}
+            <Certificate />
         </>
     )
 }

@@ -1,90 +1,94 @@
 import React from 'react'
-//import "./register.css"
-export default function register() {
+import "./register.css"
+import { useState } from 'react'
+export default function Register() {
+    const [fullName , setFullName] = useState('')
     const getExamValue = (params) => { }
-    const handleSubmit = (event)=>{
-        
+    const handleSubmit = (event) => {
+
     }
+    const [userDetails , setUserDetails] = useState({
+        fullName:'',
+        cnic:'',
+    })
     return (
         <>
             <div class="container">
                 <form onSubmit={handleSubmit}>
-                    <div class="form-group row">
-                        <h5 class="text-center">ISTQB-PSTB CTFL Exam Seat Reservation Form</h5>
-                        <label for="fname" class="control-label col-sm-2">Full Name</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="fname" placeholder="Enter your Full name" required />
+                    <h5 class="text-center">ISTQB-PSTB CTFL Exam Seat Reservation Form</h5>
+                    <div class="register-form">
+                        <div class="form-group">
+                            <label for="fname">Full Name</label>
+
+                            <input type="text" class="form-control" id="fname" placeholder="Enter your Full name" onChange={(e)=> setFullName(e.target.value)} required />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="cnic" class="col-sm-2 col-form-label">CNIC Number</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="cnic">CNIC Number</label>
+
                             <input type="text" class="form-control" id="cnic" placeholder="Enter CNIC Number" required />
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lname" class="control-label col-sm-2">Last Name</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="lname" >Last Name</label>
+
                             <input type="text" class="form-control" id="lname" placeholder="Last name" />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="control-label col-sm-2">Email Address</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+
                             <input type="email" class="form-control" id="email" placeholder="Your email address that you check regularly." required />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="oemail" class="control-label col-sm-2">Official Email</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="oemail">Official Email</label>
+
                             <input type="email" class="form-control" id="oemail" placeholder="Your Official/Company email address " />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="phone" class="control-label col-sm-2">Mobile Number</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="phone">Mobile Number</label>
+
                             <input type="tel" class="form-control" id="typePhone" placeholder="Your Current Mobile Number" required />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="password" class="control-label col-sm-2">Password</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="password" >Password</label>
+
                             <input type="password" class="form-control" id="password" placeholder="Your password" />
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="address" class="control-label col-sm-2">Postal Address</label>
-                        <div class="col-sm-10">
+                        <div class="form-group">
+                            <label for="address" >Postal Address</label>
+
                             <input type="text" class="form-control" id="address1" placeholder="Enter Address" />
                             <p><strong>Note:</strong> Please provide your complete postal address on which you can receive your certificate, after passing the exam.</p>
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="location" class="control-label col sm-2">Select Location</label>
-                        <div class="col-sm-10 ">
+                        <div class="form-group">
+                            <label for="location">Select Location</label>
+
                             <select class="form-control form-select" id="locate">
                                 <option disabled selected>Select your Exam location</option>
                                 <option>Islamabad</option>
                                 <option>Lahore</option>
                                 <option>Karachi</option>
                             </select>
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="location" class="control-label col sm-2">Select Exam</label>
-                        <div class="col-sm-10" >
+                        <div class="form-group">
+                            <label for="location">Select Exam</label>
+
                             <select class="form-control form-select" id="locate" required>
                                 <option disabled selected>Select your Exam Date</option>
                                 <option>ISB-February 17, 2023</option>
                                 <option>LHR-February 18, 2023</option>
                                 <option>KCH-February 17, 2023</option>
                             </select>
+
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <label class="control-label col-sm-2">Terms and Conditions</label>
-                        <div class="col-sm-10">
-                            <strong>PSTB Terms and Conditions</strong>
+                        <div class="form-group">
+                            <label>PSTB Terms and Conditions</label>
                             <p> In order to appear in exam, all candidates must accept the below agreement.</p>
                             <div class="form-check">
                                 <p>In order to appear in exam, all candidates must accept the below agreement.
@@ -104,16 +108,16 @@ export default function register() {
                                 </label>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="offset-sm-2 col-sm-10 pull-right">
-                            <button type="submit" id="submit-btn" class="btn btn-primary">Submit</button>
+                        <div class="form-group">
+                            <div class="sub-button">
+                                <button type="submit" id="submit-btn" class="btn btn-primary">Submit</button>
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
-            
-            </>
+
+        </>
 
     )
 }

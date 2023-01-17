@@ -3,16 +3,16 @@ import './info.css'
 export default function information() {
     return (<>
         {/* Home page information */}
-        <header>
+        <div class="top-section">
         <div class="container">
             <div class="main-text">
-            <p class="container-sm text-center">Pakistan Software <br /> Testing Board</p>
+            <h1 class="text-center">Pakistan Software <br /> Testing Board</h1>
             <div class="btn-group" role='group' aria-label="Info" >
-                <button type="button" class="btn btn-outline-primary">More Info</button>
+                <button type="button" class="btn btn-outline-primary infobtn">More Info</button>
             </div>
             </div>
         </div>
-        </header>
+        </div>
        
     </>)
 }

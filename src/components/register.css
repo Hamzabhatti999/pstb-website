@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
-@import url('https://fonts.googleapis.com/css?family=sans-serif'); 
 
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     align-items:center;
     padding: 2em;
     background-color:#ffff;
     width:fit-content;
-}
+} */
 form {
     padding: 1em;
     margin: 1em;
-    width: 50%;
+    width: 100%;
 }
 h5 {
     font-size: 2rem;
@@ -34,10 +31,18 @@ h5 {
 }
 .btn-primary:hover{
     background-color: #029349;
-    border: none;
+    border: 1px solid #029349;
     
 }
-
-.border-color-change {
-    border-color: red;
+.form-control:focus{
+    border-color: #029349;
+    box-shadow:none;
+}
+.register-form{
+    max-width: 700px;
+    margin: 40px auto
+}
+.register-form .form-group label{
+    font-weight: 500;
+    margin-bottom: 5px;
 }
