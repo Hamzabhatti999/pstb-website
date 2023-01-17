@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+.navbar{
+    background-color: black;
+    padding: 11px ;
+    transition: padding .3s;
+}
+
+.navbar-brand{
+    color:#029349 ;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 20px;
+}
+.navbar-brand:hover{
+   color: #029349;
+}
+.navbar-nav{
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-nav .nav-item a{
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    list-style: none;
+}

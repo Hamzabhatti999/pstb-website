@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
+@import url('https://fonts.googleapis.com/css?family=sans-serif'); 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2em;
+    background-color:#ffff;
+    width:fit-content;
+}
+form {
+    padding: 1em;
+    margin: 1em;
+    width: 50%;
+}
+h5 {
+    font-size: 2rem;
+    color: #029349;
+}
+.form-group {
+    place-items:initial;
+    margin-bottom: 1em;
+    
+}
+.form-control{
+    border:1px solid #029349;
+}
+.btn-primary{
+    background-color: #029349;
+    border: 1px solid #036934;
+    outline-style: none;
+}
+.btn-primary:hover{
+    background-color: #029349;
+    border: none;
+    
+}
+
+.border-color-change {
+    border-color: red;
+}

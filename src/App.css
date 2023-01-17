@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+/* .App {
+  text-align: center;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: fit-content;
+  background-size: cover;
+  display: block;
+
+}
+
+.img-fluid {
+  margin-top: -70px;
+}
+
+.navbar {
+  background-color: black !important;
+  height: 70px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.collapse .navbar-brand {
+  color: #029349 !important;
+  padding-bottom: 10px;
+  padding-left: 20%;
+  margin-right: -16%;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  margin: auto;
+  font-weight: 400;
+  justify-content: space-evenly;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  margin: 10px;
+  color: #ffff;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-dark .navbar-nav a:hover {
+  color: #029349 !important;
+  transition: 0.5s;
+}
+
+.text-center {
+  margin-top: -42%;
+  margin-bottom: 0.5em;
+  color: #17bb95;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 95px;
+}
+
+.btn {
+  color: white;
+  background-color: #029349;
+  border-color: transparent;
+  outline-color: none !important;
+}
+
+.btn-outline-primary {
+  outline-color: transparent !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #029349;
+  border-color: darkgreen;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 20%;
+}
+
+.row-md-4 .heading {
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  margin-right: 10%;
+}
+
+.row {
+  margin-left: 20px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.col-md-4 .found {
+  text-decoration: none;
+  color: #029349;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  float: right;
+  margin-left: 100px;
+}
+
+.col-md-4 .found:hover {
+  text-decoration: underline;
+}
+
+.col-md-4 p {
+  text-align: right;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.list .found {
+  margin-top: 10px;
+  line-height: 0.25rem;
+  font-size: 14px;
+}
+
+.col-md-2 .rounded-circle {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 100%;
+  border: 7px solid;
+  color: rgb(235, 235, 235);
+  overflow: hidden;
+}
+
+
+.card-img-overlay {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  visibility: hidden;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.card:hover #green-overlay {
+  transition: 0.6s;
+  background-color: green;
+  visibility: visible
+}
+
+.col-md-4 h5 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.exam strong {
+  margin: 10px;
+}
+
+.exam p {
+  float: left;
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+#accr-img {
+  margin-left: 10%;
+  max-width: 40%;
+  float: left;
+}
+
+#accr-img #black-overlay {
+  border-radius: 100%;
+  margin: auto;
+}
+
+#black-overlay .card-title {
+  font-size: 18px;
+  margin-top: 35px;
+  transform: translate(-30%, -15%);
+}
+
+.card:hover #black-overlay {
+  transition: 0.6s;
+  background-color: black;
+  visibility: visible;
+}
+
+.appium {
+  margin-top: 10%;
+  font-size: 14px;
+}
+
+.appium h5 {
+  float: right;
+}
+
+.appium strong {
+  padding-left: 20px;
+}
+
+.appium p {
+  float: right;
+  font-size: 15px;
+  margin-top: -1%;
+}
+
+.afq {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.col-md-5 {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.a4q-heading h4 {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.a4q-heading a {
+  float: left !important;
+  text-decoration: none;
+  color: #029349;
+}
+
+.a4q-heading a:hover {
+  text-decoration: underline;
+  color: #029349;
+}
+
+.a4q p {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.selenuim {
+  margin-top: 10%;
+  font-size: 14px;
+}
+
+.sel-heading a {
+  float: left;
+  text-decoration: none;
+  color: #029349;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sel-heading a:hover {
+  text-decoration: underline;
+}
+
+.ctal {
+  margin-top: 100px;
+  font-size: 14px;
+}
+.ctal-heading {
+  margin-top: -25%;
+}
+.ctal-heading a {
+  text-decoration: none;
+  float: right;
+  color: #029349;
+  font-weight: 700;
+  font-size: 18px;
+}
+.ctal-heading a:hover{
+text-decoration: underline;
+}
+.ctal-exam {
+  margin-left: 10px;
+}
+
+.ctal-exam h5 {
+  margin-left: 20px;
+}
+.ctal-exam p {
+  font-size: 15px;
+  margin-top: -5px;
+  text-align: left;
+}
+.list a{
+  color: #029349;
+  text-decoration: none;
+}
+.list a:hover{
+  text-decoration: underline;
+}
+.reserve a{
+  text-decoration: none;
+  color: #029349;
+  margin: 2px ;
+  font-weight: 600;
+  font-size: 15px;
+}
+.reserve a:hover{
+  text-decoration: underline;
+}
+
+#register .card-img-overlay {
+  width: 100%;
+  height: 100%;
+  white-space: wrap;
+  visibility: visible;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.card:hover #transparent-overlay {
+  transition: 0.6s;
+  background-color: green;
+  visibility: visible
+} */
