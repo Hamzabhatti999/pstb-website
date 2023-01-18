@@ -1,12 +1,4 @@
 
-/* .container {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding: 2em;
-    background-color:#ffff;
-    width:fit-content;
-} */
 form {
     padding: 1em;
     margin: 1em;
@@ -28,15 +20,29 @@ h5 {
     background-color: #029349;
     border: 1px solid #036934;
     outline-style: none;
+    border-radius: 10px;
 }
 .btn-primary:hover{
     background-color: #029349;
-    border: 1px solid #029349;
-    
+    border: 1px solid black;
+}
+.sub-button .btn:focus{
+    border-color: #029349;
+    box-shadow: none;
+    outline: auto;
+    background-color: #029349;
 }
 .form-control:focus{
     border-color: #029349;
     box-shadow:none;
+}
+.form-check-input:checked {
+    background-color:#029349;
+    border-color:#036934;
+}
+.form-check-input:focus {
+   border-color: #036934;
+   box-shadow: none;
 }
 .register-form{
     max-width: 700px;
