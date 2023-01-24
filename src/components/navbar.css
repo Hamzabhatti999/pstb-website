@@ -11,8 +11,7 @@
 .navbar-brand{
     color:#029349 ;
     font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    height: 50px;
-    padding-left: 50px;
+    padding-left: 90px;
     padding-right: 50px;
     line-height: 20px;
 }
@@ -21,12 +20,17 @@
 }
 .navbar-nav{
     font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
 }
 .navbar-nav .nav-item a{
-    font-weight: 100;
+    font-weight: 400;
     letter-spacing: 1px;
     color: white;
     text-transform: uppercase;
     padding: 15px;
-    list-style: none;
+    line-height: 20px;
+}
+.navbar-nav .nav-item a:hover{
+    color: #029349;
 }

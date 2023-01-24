@@ -6,7 +6,7 @@ export default function information() {
         <div class="top-section">
         <div class="container">
             <div class="main-text">
-            <h1 class="text-center">Pakistan Software <br /> Testing Board</h1>
+            <h1 class="heading-text">Pakistan Software <br /> Testing Board</h1>
             <div class="btn-group" role='group' aria-label="Info" >
                 <button type="button" class="btn btn-outline-primary infobtn">More Info</button>
             </div>
