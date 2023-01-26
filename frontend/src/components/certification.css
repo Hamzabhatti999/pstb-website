@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
+
+
+.mid-section {
+    padding: 100px;
+    display: block;
+}
+
+.main-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.main-heading h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.55;
+    margin-bottom: 15px;
+    color: inherit;
+}
+
+.main-heading p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.card-section {
+    display: flex;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.card-body {
+    border: 1px solid #029349;
+    border-radius: 15px;
+    margin: 12px;
+    box-shadow: 0 4px 8px 0 rgba(2, 26, 9, 0.623);
+    transition: 0.4s;
+}
+.card-body:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    border: 1px solid rgba(23, 80, 40, 0.623);
+}
+.card-title {
+    color: #029349;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+    margin-top: 20px;
+    width: 500px;
+}
+.card-text a{
+    text-decoration: none;
+    color: #029349;
+    font-weight: 600;
+    font-size: 14px;
+}
+.card-text a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.exam-section {
+    margin-top: 10px;
+}
+.exam-section h2 {
+    font-size: 18px;
+    color: #029349;
+    font-weight: bold;
+}
+.exam-section p {
+    margin: auto;
+    line-height: 1.7;
+    font-size: small;
+}
+.exam-section strong{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+}
+.card-img img{
+    width: 250px;
+    height: 250px;
+    align-content: center;
+    position:static;
+}

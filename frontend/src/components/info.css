@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.top-section{
+    background-image: url('../assets/banner.jpg');
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #17bb95;
+    height: 100%;
+    width: 100%;
+    padding-top: 360px;
+    padding-bottom: 350px;
+   
+}
+.top-section .main-text{
+    line-height: 10px;
+}
+.top-section .heading-text{
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.infobtn{
+    margin-top: 15spx;
+    height: 50px;
+    background-color: #029349;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.infobtn:hover{
+    background-color: #029349;
+    border: 1px solid  #029349;;
+}
+.infobtn:active{
+    
+    background-color:#029349 !important;
+  
+}
+.infobtn:focus{
+    box-shadow: none;
+    outline: none;
+    border-color:#029349 ;
+}
+@media only screen and (max-width: 768px){
+    .top-section{
+        width: 2000px;
+    }
+    .top-section .heading-text{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .top-section{
+        width: 1785px;
+    }
+    .top-section .heading-text{
+        font-size: 40px;
+    }
+}
+@media  (max-width:425px){
+    .top-section .heading-text{
+      
+        font-size: 30px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .top-section{
+        width: 1700px;
+        height: 900px;
+    }
+}

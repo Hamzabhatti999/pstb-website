@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Helvetica Neue');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+.navbar{
+    background-color: black;
+    padding: 11px ;
+    transition: padding .3s;
+}
+.navbar-toggler-icon{
+    color: #029349;
+    font-size:20px;
+   margin-right: 15px;
+}
+.navbar-brand{
+    color:#029349 ;
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-right: 50px;
+    line-height: 20px;
+}
+.navbar-brand:hover{
+   color: #029349;
+}
+.navbar-nav{
+    font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 20px;
+}
+.navbar-nav .nav-item a{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    line-height: 20px;
+}
+.navbar-nav .nav-item a:hover{
+    color: #029349;
+}
+
+/*   Media Queries */
+/* @media only screen and (max-width: 768px) {
+    .navbar-brand{
+        margin-left: -855px;
+        font-size: 25px;
+          display: flex;
+        flex-direction: row;
+    }
+    .navbar{
+            padding: 30px;
+      
+    }
+    .navbar-nav .nav-item a{
+        display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+      
+}
+   .navbar-toggler-icon{
+    display: none;
+  }
+} */
+
+/* @media(min-width:320px) and (max-width:425px){
+     .navbar-brand{
+        display: flex;
+       padding-right: 50px;
+    }
+    .navbar-toggler-icon{
+    font-size:15px;
+  }
+} */
