@@ -10,7 +10,7 @@ import agile from '../assets/agile.jpg'
 export default function certification() {
   return (
     <>
-      <div className='mid-section'>
+      <div className='mid-section' >
         <div className='main-heading'>
           <h2>Certification </h2>
           <p className='text-muted'>ISTQB® Certified Tester is the most widespread qualification scheme in the world, and the syllabi contents and  glossary have
@@ -20,6 +20,9 @@ export default function certification() {
         </div>
         <div className='card-section'>
           <div className='card-body '>
+          <div className='card-img center'>
+              <img  src={foundation} alt='foundation' />
+            </div>
             <div className='card-title'>
               Foundation CTFL
             </div>
@@ -47,11 +50,12 @@ export default function certification() {
                 February 17, 2023
               </p>
             </div>
-            <div className='card-img center'>
-              <img  src={foundation} alt='foundation' />
-            </div>
+            
           </div>
           <div className='card-body'>
+          <div className='card-img'>
+              <img src={a4q} alt='a4q' />
+            </div>
             <div className='card-title'>
               A4Q Foundation Level Tester for Appium
             </div>
@@ -71,11 +75,12 @@ export default function certification() {
                 February 17, 2023
               </p>
             </div>
-            <div className='card-img'>
-              <img src={a4q} alt='a4q' />
-            </div>
+           
           </div>
           <div className='card-body'>
+          <div className='card-img'>
+              <img src={a4q} alt='a4q' />
+            </div>
             <div className='card-title'>
               A4Q Selenium Tester Foundation Certification
             </div>
@@ -94,13 +99,14 @@ export default function certification() {
                 February 17, 2023
               </p>
             </div>
-            <div className='card-img'>
-              <img src={a4q} alt='a4q' />
-            </div>
+            
           </div>
         </div>
         <div className='card-section'>
           <div className='card-body '>
+          <div className='card-img'>
+              <img src={tmmi} alt='tmmi' />
+            </div>
             <div className='card-title'>
               TMMi Professional Certification
             </div>
@@ -120,11 +126,12 @@ export default function certification() {
                 February 17, 2023
               </p>
             </div>
-            <div className='card-img'>
-              <img src={tmmi} alt='tmmi' />
-            </div>
+           
           </div>
           <div className='card-body'>
+          <div className='card-img'>
+              <img src={testmanger} alt='tests'/>
+            </div>
             <div className='card-title'>
               Test Manager CTAL
             </div>
@@ -139,11 +146,12 @@ export default function certification() {
                 <p> For more information contact </p>
                 <p>info@pstb.pk</p></strong>
             </div>
-            <div className='card-img'>
-              <img src={testmanger} alt='tests'/>
-            </div>
+            
           </div>
           <div className='card-body'>
+          <div className='card-img'>
+              <img src={testanalysts} alt='tests' />
+            </div>
             <div className='card-title'>
               Test Analyst CTAL
             </div>
@@ -158,13 +166,14 @@ export default function certification() {
                 <p> For more information contact </p>
                 <p>info@pstb.pk</p></strong>
             </div>
-            <div className='card-img'>
-              <img src={testanalysts} alt='tests' />
-            </div>
+          
           </div>
         </div>
         <div className='card-section'>
           <div className='card-body '>
+          <div className='card-img'>
+              <img src={agile} alt='agile'/>
+            </div>
             <div className='card-title'>
             Agile Tester Extension
             </div>
@@ -187,9 +196,7 @@ export default function certification() {
               <p>For more information contact</p>
               <strong>info@pstb.pk</strong>
             </div>
-            <div className='card-img'>
-              <img src={agile} alt='agile'/>
-            </div>
+           
           </div>
           <div className='card-body'>
             <div className='card-title'>
@@ -197,7 +204,7 @@ export default function certification() {
             </div>
             <div className='card-text'>
            <p> Please reserve an exam seat by filling the following registration form . Payment details will be emailed to you after seat reservation</p>
-           <p> <a href='/#'> Registration Form for Certification</a></p>
+           <p> <a href='/register.js'> Registration Form for Certification</a></p>
             </div>
           </div>
           

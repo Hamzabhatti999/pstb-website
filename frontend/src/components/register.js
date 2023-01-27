@@ -1,15 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-import axios from 'axios'
+import PostData from './axioCall';
 import "./register.css"
 export default function Register() {
-    // const getExamValue = (params) => {}
-
-    const postData = (data) => {
-        axios.post('http://localhost:3100/form', data)
-            .then(res => { console.log("response", res) })
-            .catch((err) => { console.log("error :", err) })
-    }
 
     const [users, setUsers] = useState({
         fullname: "",
@@ -32,8 +25,8 @@ export default function Register() {
     // handle the form Submission
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log("Form Data=", users)
-        postData(users)
+        console.log("React Form Data=", users)
+        PostData(users)
     }
     return (
         <>
@@ -69,7 +62,7 @@ export default function Register() {
                         <div className="form-group">
                             <label htmlFor="location">Select Exam Location</label>
                             <select className="form-control form-select" id="locate" name="testlocation" onChange={valueChange}>
-                                <option disabled selected>Select your Exam location</option>
+                                <option disabled defaultValue>Select your Exam location</option>
                                 <option>Islamabad</option>
                                 <option>Lahore</option>
                                 <option>Karachi</option>
@@ -78,7 +71,7 @@ export default function Register() {
                         <div className="form-group">
                             <label htmlFor="location">Select Exam Date</label>
                             <select className="form-control form-select" id="exam" name="examdate" onChange={valueChange} required>
-                                <option disabled selected>Select your Exam Date</option>
+                                <option disabled defaultValue>Select your Exam Date</option>
                                 <option>ISB-February 17, 2023</option>
                                 <option>LHR-February 18, 2023</option>
                                 <option>KCH-February 17, 2023</option>
