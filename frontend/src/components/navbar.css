@@ -12,6 +12,10 @@
     font-size:20px;
    margin-right: 15px;
 }
+.navbar-toggler{
+    border: 1px solid #029349;
+    border-radius: 5px;
+}
 .navbar-brand{
     color:#029349 ;
     font-family:  Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;

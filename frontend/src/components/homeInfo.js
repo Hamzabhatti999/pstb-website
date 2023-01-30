@@ -3,7 +3,7 @@ import './info.css'
 export default function information() {
     return (<>
         {/* Home page information */}
-        <div className="top-section">
+        <div className="top-section" id="info">
         <div className="container">
             <div className="main-text">
             <h1 className="heading-text">Pakistan Software <br /> Testing Board</h1>

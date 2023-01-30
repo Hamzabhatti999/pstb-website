@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './navbar.css'
 export default function navigation() {
@@ -20,7 +20,7 @@ export default function navigation() {
               {/* Navbar Items */}
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <Link className="nav-link" to='/certification'>Certification</Link>
+                  <a className="nav-link" href='/#certification'>Certification</a>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/#News">News & Events</Link>
@@ -29,10 +29,10 @@ export default function navigation() {
                   <Link className="nav-link" to="/#Partner">Partner Program</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/#Accreditation">Accreditation</Link>
+                  <Link className="nav-link" to="/accredition">Accreditation</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/#Certified">Certified Testers</Link>
+                  <Link className="nav-link" to="/testers">Certified Testers</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/#Contact">Contact</Link>
